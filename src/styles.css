@@ -51,10 +51,19 @@ margin-bottom: 20px;
   font-weight: 300;
   line-height: 1;
 }
-
+ 
 .units {
   position: relative;
   top: -34px;
+}
+
+.clearfix .active {
+  color: black;
+  cursor: default;
+}
+
+.clearfix .active:hover {
+  text-decoration: none;
 }
 
 .search-form {
