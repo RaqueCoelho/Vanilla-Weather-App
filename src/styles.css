@@ -35,15 +35,12 @@ li {
 .weather-app {
   padding: 30px;
   margin: 45px auto;
-  border-radius: 10px;
   max-width: 600px;
-  border: 1px solid rgb(66, 64, 64);
-  border-radius: 5px;
+ 
 }
 .overview {
 margin-bottom: 20px;
 }
-
 
 .temperature {
   color: black;
@@ -69,3 +66,34 @@ margin-bottom: 20px;
 .search-form {
   margin-bottom: 20px;
 }
+
+.weather-forecast {
+margin-top:10px;
+}
+
+.weather-forecast h3 {
+color: black;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+height: 15px;
+line-height: 15px;
+padding-top: 7px;
+  }
+.weather-forecast img {
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    width: 48px;
+    }
+
+  .weather-forecast-temperature {
+      text-align: center;
+      color: black;
+      font-size: 13px;
+      font-weight: 400;
+      height: auto;
+      line-height: 15px;
+      white-space: nowrap;
+
+      }
